@@ -18,10 +18,10 @@ const Hero = () => {
 
       {/* Floating Diamond Shapes */}
       <div className="absolute top-32 right-20 opacity-20 animate-float">
-        <img src={logo} alt="" className="w-16 h-16" />
+        <img src={logo} alt="" className="h-12 w-auto" />
       </div>
       <div className="absolute bottom-40 left-20 opacity-10 animate-float-delayed">
-        <img src={logo} alt="" className="w-24 h-24" />
+        <img src={logo} alt="" className="h-16 w-auto" />
       </div>
 
       {/* Content */}

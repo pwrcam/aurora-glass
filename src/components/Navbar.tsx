@@ -34,15 +34,12 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-3 group">
+          <a href="#home" className="group">
             <img
               src={logo}
               alt="DeBeer Software Studios"
-              className="h-10 w-10 object-contain transition-transform duration-300 group-hover:scale-110"
+              className="h-10 sm:h-12 object-contain transition-transform duration-300 group-hover:scale-105"
             />
-            <span className="text-lg font-semibold text-foreground hidden sm:block">
-              DeBeer Software
-            </span>
           </a>
 
           {/* Desktop Navigation */}

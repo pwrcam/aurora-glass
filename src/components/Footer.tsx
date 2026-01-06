@@ -28,15 +28,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           {/* Brand Column */}
           <div className="md:col-span-2">
-            <a href="#home" className="flex items-center gap-3 mb-6">
+            <a href="#home" className="inline-block mb-6">
               <img
                 src={logo}
                 alt="DeBeer Software Studios"
-                className="h-10 w-10 object-contain"
+                className="h-12 sm:h-14 object-contain"
               />
-              <span className="text-xl font-semibold text-foreground">
-                DeBeer Software Studios
-              </span>
             </a>
             <p className="text-muted-foreground mb-6 max-w-sm">
               Premium custom software development for ambitious companies. 
